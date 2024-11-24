@@ -20,6 +20,7 @@ This project provides a web interface to explore Helm and OCI repositories, fetc
 
 ```bash
 cd backend
+sudo apt install python3.10-venv
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
